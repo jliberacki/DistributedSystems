@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13)
+project(Borkowski_Szymon_1 C)
+add_link_options(-pthread)
+set(CMAKE_C_STANDARD 11)
+add_executable(Borkowski_Szymon_1 clientTCP.c tokenRing.c tokenRing.h)

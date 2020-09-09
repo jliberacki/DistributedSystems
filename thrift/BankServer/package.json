@@ -1,0 +1,21 @@
+{
+  "name": "bankserver",
+  "version": "1.0.0",
+  "description": "Bank server",
+  "main": "src/server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Szymon Borkowski",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.0",
+    "grpc": "^1.20.3",
+    "thrift": "^0.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
